@@ -36,3 +36,299 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2{
+  font-family: "Markazi Text", serif;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
+nav img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000000;
+}
+
+header {
+  margin-top: 5px;
+}
+
+header h1{
+  color: #F4CE14;
+  margin-top: 40px;
+  font-size: 36px;
+}
+
+header h2{
+  font-weight: lighter;
+  color: #fff;
+  font-size: 28px;
+}
+
+header img {
+  margin-top: 10px;
+  height: 325px;
+  width: 275px;
+  display: inline-flex;
+  float: right;
+  margin-right: 400px;
+  border-radius: 16px;
+}
+
+.hero-container{
+  background-color: #495E57;
+  padding: 20px;
+  height: 285px;
+}
+
+.hero-text{
+  margin-top: -20px;
+  margin-left: 400px;
+}
+
+.hero-text p{
+  color: #fff;
+  margin-top: -20px;
+  display: block;
+  width: 250px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+ }
+
+header button {
+  border: none;
+  background-color: #F4CE14;
+  width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin-left: 400px;
+}
+
+.specials{
+  margin-top: 30px;
+}
+
+.specials button {
+  border: none;
+  background-color: #F4CE14;
+  width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-right: 415px;
+  font-weight: bold;
+  float: right;
+}
+
+.specials h1{
+  margin-left: 350px;
+  font-size: 36px;
+  display: inline-block;
+}
+
+.card{
+  display: inline-block;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin: 20px;
+  width: 280px;
+  height: 439px;
+  background-color: #EDEFEE;
+}
+
+.card img{
+  border-radius: 16px;
+  width: 280px;
+  height: 185px;
+}
+
+.card h2{
+  font-size: 20px;
+  margin-left: 18.5px;
+  display: inline-flex;
+}
+
+.card .price1{
+  color: #F4CE14;
+  font-size: 12.5px;
+  margin-left: 75px;
+  display: inline-flex;
+}
+
+.card .price2{
+  color: #F4CE14;
+  font-size: 12.5px;
+  margin-left: 85px;
+  display: inline-flex;
+}
+
+.card .price3{
+  color: #F4CE14;
+  font-size: 12.5px;
+  margin-left: 52.5px;
+  display: inline-flex;
+}
+
+.card p{
+  margin-left: 13.5px;
+}
+
+.allcards{
+  display: flex;
+  justify-content: center;
+}
+
+.allreviews{
+  display: flex;
+}
+
+.reviews h1{
+  margin-top: 200px;
+  margin-left: 657.5px;
+  font-size: 36px;
+  display: inline-block;
+}
+
+.reviewcard{
+  margin: auto;
+  border-radius: 16px;
+  width: 289px;
+  height: 239px;
+  background-color: #EDEFEE;
+}
+
+.reviewcard img{
+  display: flex;
+  margin-left: 20px;
+  width: 100px;
+  border: 2px solid #495E57;
+  border-radius: 16px;
+}
+
+.reviewcard h2{
+  margin-top: -65px;
+  margin-left: 155px;
+  display: flex;
+}
+
+.reviewcard h3{
+  margin-left: 32.5px;
+  display: inline-flex;
+}
+
+.reviewcard p{
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 13.5px;
+}
+
+.allreviews{
+  margin-top: 20px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  background-color: #495E57;
+}
+
+.about{
+  margin-left: 250px;
+  display: inline-flex;
+  margin-top: 200px;
+}
+
+.about-container-text{
+  display: block;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.about h1{
+  font-size: 36px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.about h2{
+  font-size: 28px;
+  margin-top: -30px;
+  display: flex;
+}
+
+.about p{
+  display: block;
+  width: 250px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+ }
+
+.about img{
+  width: 400px;
+  height: 300px;
+}
+
+.about-image1{
+  margin-left: 400px;
+  margin-top: 200px;
+  position: absolute;
+}
+
+.about-image2{
+  margin-left: 550px;
+  position: absolute;
+}
+
+footer {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  height: 400px;
+  margin-top: 200px;
+}
+
+.footer-logo{
+  margin-top: 155px;
+  height: 100px;
+  width: 400px;
+}
+
+footer ul {
+  margin-top: -5px;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer h3{
+  margin-top: 115px;
+  margin-left: 40px;
+  display: inline-flex;
+  font-size: 20px;
+  color: #FFF;
+}
