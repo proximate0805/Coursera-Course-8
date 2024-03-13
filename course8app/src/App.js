@@ -1,20 +1,22 @@
 import './App.css';
+import Main from "./components/Main"
 import Header from "./components/Header"
 import Nav from "./components/Nav"
-import Main from "./components/Main"
+import Specials from "./components/Specials"
+import Reviews from "./components/Reviews"
+import About from "./components/About"
 import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
-    <Nav/>
-    <Routes>
-      <Route path="/" element={<Main />}>Home Page</Route>
-      <Route path="/BookingPage" element={<BookingPage />}>Home Page</Route>
-    </Routes>
-    <Header/>
-    <Main/>
-    <Footer/>
+    <Nav />
+    <Header />
+    <Main />
+    <Specials />
+    <Reviews />
+    <About />
+    <Footer />
     </>
   );
 }

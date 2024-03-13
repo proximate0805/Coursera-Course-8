@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+import BookingForm from './components/BookingForm';
+import Header from './components/Header';
+import Main from './components/Main';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test('Initialize/Update Times', () => {
+  render(<BrowserRouter><BookingForm /></BrowserRouter>);
+  const reserveButton = screen.getByText("Choose");
+  fireEvent.click(reserveButton);
+})
