@@ -67,6 +67,13 @@ nav a{
   color: #000000;
 }
 
+nav a:hover{
+  text-shadow: 1px 1px 2px #F4CE14;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.1s;
+}
+
 header {
   margin-top: 5px;
 }
@@ -124,6 +131,20 @@ header button {
   margin-left: 400px;
 }
 
+header button:hover {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #000000;
+  width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin-left: 400px;
+  transition: 0.1s;
+}
+
+
 .specials{
   margin-top: 30px;
 }
@@ -140,6 +161,21 @@ header button {
   float: right;
 }
 
+.specials button:hover {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #000000;
+  width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-right: 415px;
+  font-weight: bold;
+  float: right;
+  transition: 0.1s;
+}
+
 .specials h1{
   margin-left: 350px;
   font-size: 36px;
@@ -154,6 +190,19 @@ header button {
   width: 280px;
   height: 439px;
   background-color: #EDEFEE;
+}
+
+.card:hover{
+  box-shadow: 1px 1px 2px #000000;
+  transform: scale(1.2);
+  display: inline-block;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin: 20px;
+  width: 280px;
+  height: 439px;
+  background-color: #EDEFEE;
+  transition: 0.25s;
 }
 
 .card img{
@@ -325,6 +374,13 @@ footer a {
   color: #FFF;
 }
 
+footer a:hover {
+  text-shadow: 1px 2px 2px white;
+  text-decoration: none;
+  color: #FFF;
+  transition: 0.1s;
+}
+
 footer h3{
   margin-top: 115px;
   margin-left: 40px;
@@ -391,6 +447,20 @@ form label {
   margin-top: 80px;
 }
 
+#submit:hover {
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  border: none;
+  background-color: #495E57;
+  width: 175px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin-top: 80px;
+  transition: 0.1s;
+}
+
 #res-date {
   margin-top: 80px;
   border: none;
@@ -399,6 +469,19 @@ form label {
   padding: 10px;
   border-radius: 16px;
   font-weight: bold;
+}
+
+#res-date:hover {
+  cursor: pointer;
+  color: white;
+  margin-top: 80px;
+  border: none;
+  background-color: #495E57;
+  width: 175px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  transition: 0.1s;
 }
 
 #res-time {
@@ -411,6 +494,19 @@ form label {
   font-weight: bold;
 }
 
+#res-time:hover {
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin-top: 80px;
+  background-color: #495E57;
+  width: 175px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  transition: 0.1s;
+}
+
 #guests {
   border: none;
   margin-top: 80px;
@@ -421,6 +517,19 @@ form label {
   font-weight: bold;
 }
 
+#guests:hover {
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin-top: 80px;
+  background-color: #495E57;
+  width: 175px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  transition: 0.1s;
+}
+
 #occasion {
   border: none;
   margin-top: 80px;
@@ -429,6 +538,19 @@ form label {
   padding: 10px;
   border-radius: 16px;
   font-weight: bold;
+}
+
+#occasion:hover {
+  cursor: pointer;
+  color: white;
+  border: none;
+  margin-top: 80px;
+  background-color: #495E57;
+  width: 175px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  transition: 0.1s;
 }
 
 .confirmedbooking{
@@ -458,4 +580,17 @@ form label {
   border-radius: 16px;
   font-weight: bold;
   margin-left: 35px;
+}
+
+.confirmedbooking button:hover{
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #495E57;
+  width: 150px;
+  padding: 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin-left: 35px;
+  transition: 0.1s;
 }

@@ -25,28 +25,29 @@ const BookingForm = (props) => {
   return (
     <header>
       <section>
-      <form>
+      <form onSubmit={handleSubmit}>
             <div>
-              <label htmlFor="book-date">Choose Date:</label>
+              <label aria-label="Date" htmlFor="book-date">Choose Date:</label>
               <input id="res-date" value={date} onChange={(e) => handleChange(e.target.value)} type="date" required/>
             </div>
             <div>
-              <label htmlFor="book-time">Choose Time:</label>
+              <label aria-label="Time" htmlFor="book-time">Choose Time:</label>
               <select id="res-time" value={times} onChange={(e) => setTimes(e.target.value)} required>
-                <option value="">Select a Time</option>
+                <option data-testid="select-option" value="">Select a Time</option>
                {props.availableTimes.availableTimes.map(availableTimes => {return <option key={availableTimes}>{availableTimes}</option>})}
               </select>
             </div>
             <div>
-              <label htmlFor="res-guests">Number of Guests:</label>
+              <label aria-label="Guests" htmlFor="res-guests">Number of Guests:</label>
               <input id="guests" min="1" value={guests} onChange={(e) => {setGuests(e.target.value)}} type={"number"} placeholder={0} max={10} required></input>
             </div>
             <div>
-              <label htmlFor="res-occasion">Occasion:</label>
+              <label aria-label="Occasion" htmlFor="res-occasion">Occasion:</label>
               <select id="occasion" key={occasion} value={occasion} onChange={(e) => setOccasion(e.target.value)} required>
                 <option value="">Select an Option</option>
-                <option>Birthday</option>
+                <option>Casual</option>
                 <option>Anniversary</option>
+                <option>Birthday</option>
               </select>
             </div>
             <div>
