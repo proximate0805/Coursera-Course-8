@@ -1,3 +1,3 @@
 # Coursera-Course-8
 
-Hello
+Hello, this is my repository for the Coursera Meta Front-End Developer Course final project.
